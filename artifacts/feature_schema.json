@@ -1,0 +1,43 @@
+{
+  "feature_names": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "fico_range_low",
+    "fico_range_high",
+    "tot_cur_bal",
+    "open_rv_24m",
+    "max_bal_bc",
+    "all_util",
+    "total_rev_hi_lim",
+    "acc_open_past_24mths",
+    "avg_cur_bal",
+    "bc_open_to_buy",
+    "mort_acc",
+    "num_tl_op_past_12m",
+    "tot_hi_cred_lim",
+    "total_bc_limit",
+    "term_meses",
+    "fico_medio",
+    "ingreso_mensual",
+    "cuota_sobre_ingreso_mensual",
+    "prestamo_sobre_ingreso",
+    "credito_usado_sobre_total",
+    "riesgo_cuota_dti",
+    "term",
+    "grade",
+    "sub_grade",
+    "verification_status"
+  ],
+  "n_features": 30,
+  "target": "loan_status",
+  "target_encoding": {
+    "Default": 1,
+    "Fully Paid": 0
+  },
+  "preprocessing": "Practica1Preprocess.transform()",
+  "filtering": "Practica1Filtering.transform()",
+  "width_threshold": 0.2
+}
