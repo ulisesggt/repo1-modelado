@@ -1,13 +1,10 @@
 """default_pipeline.preprocessing
-=================================
-
 Clase de preprocesamiento de la Práctica 1 (Practica1Preprocess).
 Se incluye aquí para que joblib.load("preprocessor.pkl") pueda
 reconstruir el objeto ya fitteado sin necesidad de tener el repo de P1.
 """
 
 from __future__ import annotations
-
 import numpy as np
 import pandas as pd
 
