@@ -1,12 +1,10 @@
 """default_pipeline.compat
-===========================
 
 Compatibilidad de deserialización para joblib.load.
 
 Los pickles de la Práctica 1 (preprocessor.pkl, filter.pkl) se guardaron
 con las clases Practica1Preprocess y Practica1Filtering bajo la ruta de
 módulo src.preprocessing.practica1_preprocessing / src.filtering.practica1_filtering.
-
 Este módulo registra alias en sys.modules para que joblib pueda encontrar
 las clases sin importar con qué ruta de módulo se guardó el pickle.
 """
@@ -15,7 +13,6 @@ from __future__ import annotations
 
 import sys
 import types
-
 from . import preprocessing as _preprocessing
 from . import filtering as _filtering
 from .preprocessing import Practica1Preprocess
